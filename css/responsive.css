@@ -27,6 +27,14 @@
         .job-info .icons-tittle {
             transform: scale(1);
         }
+        .very-left,
+        .very-right {
+            border-right: 1px solid #12128c36;
+            border-left: 1px solid #12128c36;
+        }
+        .nav-bar {
+            border-bottom: 1px solid #12128c36;
+        }
     }
     /* PC */
     
@@ -38,7 +46,16 @@
             border-right: 1px solid #ffa500;
             border-bottom: 1px solid #ffa500;
         }
+        .certs:nth-child(2) {
+            border-bottom: 1px solid #ffa500;
+        }
         header .nav-bar>li {
             text-align: center;
+        }
+        .very-right {
+            border-right: 1px solid #12128c36;
+        }
+        .very-left {
+            border-left: 1px solid #12128c36;
         }
     }
