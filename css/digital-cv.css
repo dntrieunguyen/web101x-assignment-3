@@ -1,0 +1,11 @@
+.timeline-projects {
+    background-color: #8a2be266;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.timeline-project-start {
+    border-bottom: 1px dotted #008000db;
+}

@@ -1,0 +1,44 @@
+    /* Mobile */
+    
+    @media (max-width:575px) {
+        header .nav-bar>li {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            padding-left: 30px;
+        }
+        .certs {
+            border-bottom: 1px solid #ffa500;
+        }
+        .prj-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .prj-info .timline {
+            margin-bottom: 16px;
+        }
+    }
+    /* Tablet */
+    
+    @media (min-width:576px) and (max-width:991px) {
+        header .nav-bar>li {
+            text-align: center;
+        }
+        .job-info .icons-tittle {
+            transform: scale(1);
+        }
+    }
+    /* PC */
+    
+    @media (min-width:992px) {
+        * {
+            font-size: 16px;
+        }
+        .certs:first-child {
+            border-right: 1px solid #ffa500;
+            border-bottom: 1px solid #ffa500;
+        }
+        header .nav-bar>li {
+            text-align: center;
+        }
+    }
